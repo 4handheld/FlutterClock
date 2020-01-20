@@ -1,15 +1,11 @@
-# Flutter Clock
+# Myfancy flutter Clock
 
-Welcome to Flutter Clock!
+My flutter clock design for the #flutterclock challenge!
 
-See [flutter.dev/clock](https://flutter.dev/clock) for how to get started, submission requirements, contest rules, and FAQs.
+ScreenShots
 
-See a [live demo](https://maryx.github.io/flutter_clock) with Flutter for Web!
+<img src='myfancy_clock/demo.png' width='350'>
 
-Example [Analog Clock](analog_clock)
+<img src='myfancy_clock/rain.png' width='350'>
 
-<img src='analog_clock/analog.gif' width='350'>
-
-Example [Digital Clock](digital_clock)
-
-<img src='digital_clock/digital.gif' width='350'>
+<img src='myfancy_clock/zodaic.png' width='350'>
