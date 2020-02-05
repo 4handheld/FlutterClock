@@ -1,0 +1,70 @@
+name: analog_clock
+description: Analog clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  flutter_svg: ^0.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/dark-second-hand.png
+    - cloud_sunny.svg
+    - assets/abstract_pattern_white.jpg
+    - assets/blue_bg.jpg
+    - assets/jean.jpg
+    - assets/thermometer-half.svg
+    - assets/bluebg.png
+    - assets/svg_weather/cloud_sunny.svg
+    - assets/svg_weather/clouds.svg
+    - assets/svg_weather/fog.svg
+    - assets/svg_weather/rain.svg
+    - assets/svg_weather/snow.svg
+    - assets/svg_weather/storm.svg
+    - assets/svg_weather/wind.svg
+#
+    - assets/starsigns/aquarius.svg
+    - assets/starsigns/aries.svg
+    - assets/starsigns/cancer.svg
+    - assets/starsigns/gemini.svg
+    - assets/starsigns/leo.svg
+    - assets/starsigns/libra.svg
+    - assets/starsigns/pisces.svg
+    - assets/starsigns/sagittarius.svg
+    - assets/starsigns/scorpio.svg
+    - assets/starsigns/taurus.svg
+    - assets/starsigns/virgo.svg
+    - assets/starsigns/capricorn.svg
+
+
+  fonts:
+    - family: courier_prime
+      fonts:
+        - asset: assets/font/Courier_Prime/CourierPrime-Bold.ttf
+    - family: della_respira
+      fonts:
+        - asset: assets/font/Della_Respira/DellaRespira-Regular.ttf
+    - family: dubiel_plain
+      fonts:
+        - asset: assets/font/DubielPlain/Dubiel.ttf
+    - family: josefin_sans
+      fonts:
+        - asset: assets/font/Josefin_Sans/JosefinSans-Regular.ttf
+    - family: playfair_display
+      fonts:
+        - asset: assets/font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf
+    - family: poiret_one
+      fonts:
+        - asset: assets/font/Poiret_One/PoiretOne-Regular.ttf
